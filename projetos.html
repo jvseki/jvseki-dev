@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Projetos JVSEKI — DS A Fonte, Augusto Mariani, Aprendizado7, Pastelaria Delivery e MTHS.PUBLI.">
+  <title>Projetos — JVSEKI DEV</title>
+  <link rel="icon" href="assets/logo.png" type="image/png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="index.html" class="brand" aria-label="JVSEKI DEV — início">
+        <img src="assets/logo.png" alt="" class="brand__logo" width="48" height="48">
+        <span class="brand__text">JVSEKI <span>DEV</span></span>
+      </a>
+      <button class="menu-toggle" type="button" aria-label="Abrir menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <nav class="nav" aria-label="Principal">
+        <a href="index.html" data-page="index.html">Início</a>
+        <a href="sobre.html" data-page="sobre.html">Sobre mim</a>
+        <a href="projetos.html" data-page="projetos.html">Projetos</a>
+        <a href="contato.html" data-page="contato.html" class="nav-cta">Contato</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <div class="container page-intro reveal">
+      <span class="eyebrow">Portfólio</span>
+      <h1>Projetos</h1>
+      <p>
+        Cases reais no ar — loja, escola, agenda, delivery e portfólio audiovisual.
+        Repos de cliente ficam privados; a versão pública do sistema de laboratório (TCC) mostra o código e uma demo que dá para testar.
+      </p>
+    </div>
+
+    <section class="section">
+      <div class="container">
+        <div class="project-grid">
+          <article class="project-item reveal">
+            <p class="project-item__index">01 · Cliente</p>
+            <h3>DS A Fonte</h3>
+            <p>
+              Site vitrine para loja de importados: catálogo com dezenas de produtos, busca, filtros por categoria,
+              modal com tamanhos e pedido pré-montado no WhatsApp. Sem checkout — o fechamento acontece na conversa.
+            </p>
+            <div class="stack">
+              <span>HTML</span><span>CSS</span><span>JavaScript</span><span>Vercel</span>
+            </div>
+            <div class="project-item__links">
+              <a class="btn btn-primary" href="https://ds-story-coral.vercel.app" target="_blank" rel="noopener noreferrer">Ver site</a>
+            </div>
+          </article>
+
+          <article class="project-item reveal" id="mariani">
+            <p class="project-item__index">02 · Escola</p>
+            <h3>Agendamentos Augusto Mariani</h3>
+            <p>
+              PWA para professores reservarem notebooks, tablets e equipamentos do laboratório por dia e horário.
+              Estoque, fila de espera e Google Sheets. A versão em produção da escola fica no link do cliente;
+              o código aberto e a demo pública estão no projeto TCC abaixo.
+            </p>
+            <div class="stack">
+              <span>HTML/CSS/JS</span><span>Flask</span><span>Google Sheets</span><span>OAuth</span>
+            </div>
+            <div class="project-item__links">
+              <a class="btn btn-primary" href="https://augustomarianireserva.vercel.app" target="_blank" rel="noopener noreferrer">Site do cliente</a>
+              <a class="btn btn-outline" href="#demo-lab">Ver demo pública</a>
+            </div>
+          </article>
+
+          <article class="project-item reveal">
+            <p class="project-item__index">03 · Cliente</p>
+            <h3>Aprendizado7</h3>
+            <p>
+              Portfólio de estúdio criativo com agenda presencial: login Google, horários semanais, painel admin,
+              histórico em PostgreSQL e apoio operacional via Google Sheets. Front na Vercel, API Flask no Render.
+            </p>
+            <div class="stack">
+              <span>Flask</span><span>PostgreSQL</span><span>Google OAuth</span><span>Sheets</span>
+            </div>
+            <div class="project-item__links">
+              <a class="btn btn-primary" href="https://aprendizado7.vercel.app" target="_blank" rel="noopener noreferrer">Ver site</a>
+            </div>
+          </article>
+
+          <article class="project-item reveal">
+            <p class="project-item__index">04 · Sistema</p>
+            <h3>Pastelaria Delivery</h3>
+            <p>
+              Sistema de delivery com cardápio, carrinho, cadastro/login Google, pagamento Pix (Mercado Pago)
+              e painel admin para status dos pedidos e comunicação com motoboy.
+            </p>
+            <div class="stack">
+              <span>FastAPI</span><span>PostgreSQL</span><span>Mercado Pago</span><span>Admin</span>
+            </div>
+            <div class="project-item__links">
+              <a class="btn btn-primary" href="https://pastelaria-mu.vercel.app" target="_blank" rel="noopener noreferrer">Ver site</a>
+            </div>
+          </article>
+
+          <article class="project-item reveal">
+            <p class="project-item__index">05 · Cliente</p>
+            <h3>MTHS.PUBLI</h3>
+            <p>
+              Portfólio audiovisual para o publicitário Matheus Rial: fotos e vídeos atualizados pela Google Sheets,
+              sem precisar republicar o site a cada mudança de mídia.
+            </p>
+            <div class="stack">
+              <span>Flask</span><span>Google Sheets</span><span>PWA</span><span>Render</span>
+            </div>
+            <div class="project-item__links">
+              <a class="btn btn-primary" href="https://portfolio-matheus-rial.onrender.com" target="_blank" rel="noopener noreferrer">Ver site</a>
+            </div>
+          </article>
+        </div>
+
+        <div class="demo-block reveal" id="demo-lab">
+          <div class="demo-block__head">
+            <div>
+              <span class="eyebrow">Código aberto · TCC</span>
+              <h2>Lab Reserva — demo funcional</h2>
+              <p>
+                Mesma lógica do sistema Augusto Mariani (agenda, estoque, Sheets, login Google),
+                em versão acadêmica sem dados de cliente. Entre com qualquer conta Google e teste o fluxo.
+              </p>
+            </div>
+            <div class="demo-block__actions">
+              <a class="btn btn-accent" href="https://labreserva-tcc.vercel.app" target="_blank" rel="noopener noreferrer">Abrir demo</a>
+              <a class="btn btn-outline" href="https://github.com/jvseki/labreserva-tcc" target="_blank" rel="noopener noreferrer">Ver código</a>
+            </div>
+          </div>
+          <div class="demo-frame-wrap">
+            <iframe
+              src="https://labreserva-tcc.vercel.app"
+              title="Demo Lab Reserva TCC — agendamento de notebooks"
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+              allow="fullscreen"
+            ></iframe>
+          </div>
+          <p class="demo-frame-note">
+            No celular, abra a
+            <a href="https://labreserva-tcc.vercel.app" target="_blank" rel="noopener noreferrer">demo em tela cheia</a>
+            para testar o login Google e a agenda. No desktop, a prévia aparece acima. Código:
+            <a href="https://github.com/jvseki/labreserva-tcc" target="_blank" rel="noopener noreferrer">jvseki/labreserva-tcc</a>.
+          </p>
+        </div>
+
+        <div class="github-banner reveal">
+          <p>
+            <strong>Como eu trabalho.</strong>
+            Produção do cliente fica privada. O TCC público mostra a arquitetura completa — front PWA, Flask e Sheets — sem vazar credenciais de negócio.
+          </p>
+          <a class="btn btn-accent" href="https://github.com/jvseki/labreserva-tcc" target="_blank" rel="noopener noreferrer">labreserva-tcc no GitHub</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <img src="assets/logo.png" alt="" width="36" height="36">
+        <span>JVSEKI DEV</span>
+      </div>
+      <p class="footer-meta">&copy; <span id="year"></span> João Victor · Andradina/SP</p>
+      <div class="footer-links">
+        <a href="https://instagram.com/jvseki" target="_blank" rel="noopener noreferrer">Instagram</a>
+        <a href="https://github.com/jvseki" target="_blank" rel="noopener noreferrer">GitHub</a>
+        <a href="contato.html">Contato</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

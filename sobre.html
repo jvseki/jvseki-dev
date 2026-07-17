@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Sobre João Victor — estudante de ADS e desenvolvedor JVSEKI. Sites, agendamentos e sistemas web.">
+  <title>Sobre mim — JVSEKI DEV</title>
+  <link rel="icon" href="assets/logo.png" type="image/png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="index.html" class="brand" aria-label="JVSEKI DEV — início">
+        <img src="assets/logo.png" alt="" class="brand__logo" width="48" height="48">
+        <span class="brand__text">JVSEKI <span>DEV</span></span>
+      </a>
+      <button class="menu-toggle" type="button" aria-label="Abrir menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <nav class="nav" aria-label="Principal">
+        <a href="index.html" data-page="index.html">Início</a>
+        <a href="sobre.html" data-page="sobre.html">Sobre mim</a>
+        <a href="projetos.html" data-page="projetos.html">Projetos</a>
+        <a href="contato.html" data-page="contato.html" class="nav-cta">Contato</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="section">
+      <div class="container about-layout">
+        <div class="about-photo reveal">
+          <img src="assets/foto.png" alt="João Victor, desenvolvedor JVSEKI" width="760" height="950">
+        </div>
+
+        <div class="about-copy reveal">
+          <span class="eyebrow">Sobre mim</span>
+          <h1>João Victor, 20 anos</h1>
+          <p>
+            Sou estudante de <strong>Análise e Desenvolvimento de Sistemas</strong> e desenvolvo sob a marca
+            <strong>JVSEKI</strong>: sites e sistemas para negócios locais, escolas e profissionais que precisam
+            de algo no ar, funcional e fácil de usar.
+          </p>
+          <p>
+            Trabalho com <strong>HTML, CSS e JavaScript</strong> no front e <strong>Python</strong> no back —
+            principalmente com o microframework <strong>Flask</strong>. Em projetos maiores também uso FastAPI,
+            PostgreSQL e integrações como Google Login, Google Sheets, WhatsApp e Pix.
+          </p>
+          <p>
+            O que entrego na prática é o que já construí e coloquei no ar: catálogo comercial com pedido no WhatsApp
+            (DS A Fonte), sistema de reserva de equipamentos escolares com estoque e fila (Augusto Mariani),
+            agenda com login Google e painel admin (Aprendizado7), delivery com carrinho e pagamento (Pastelaria)
+            e portfólio audiovisual atualizado por planilha (MTHS.PUBLI). Não vendo promessa — mostro o que já funciona.
+          </p>
+          <p>
+            Se você precisa de um site, um agendamento ou um sistema simples que resolva o dia a dia do seu negócio,
+            posso ajudar do zero ao deploy.
+          </p>
+
+          <ul class="skills" aria-label="Competências">
+            <li>Front-end responsivo</li>
+            <li>UX mobile</li>
+            <li>Catálogo + WhatsApp</li>
+            <li>Agendamento + Google Login</li>
+            <li>Google Sheets</li>
+            <li>APIs Flask</li>
+            <li>FastAPI</li>
+            <li>PostgreSQL / Supabase</li>
+            <li>Deploy Vercel + Render</li>
+            <li>Pagamento Pix</li>
+            <li>PWA</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <img src="assets/logo.png" alt="" width="36" height="36">
+        <span>JVSEKI DEV</span>
+      </div>
+      <p class="footer-meta">&copy; <span id="year"></span> João Victor · Andradina/SP</p>
+      <div class="footer-links">
+        <a href="https://instagram.com/jvseki" target="_blank" rel="noopener noreferrer">Instagram</a>
+        <a href="https://github.com/jvseki" target="_blank" rel="noopener noreferrer">GitHub</a>
+        <a href="contato.html">Contato</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
