@@ -4,15 +4,15 @@
   --bg-elevated: #0d1424;
   --bg-soft: #121a2e;
   --navy: #0a1220;
-  --blue: #2f7bff;
-  --blue-bright: #4d9fff;
-  --orange: #ff7a1a;
-  --orange-soft: #ff9447;
+  --blue: #22d3ee;
+  --blue-bright: #38bdf8;
+  --orange: #8b5cf6;
+  --orange-soft: #a78bfa;
   --text: #f4f7ff;
   --muted: #9aa8c2;
-  --border: rgba(77, 159, 255, 0.18);
-  --glow-blue: rgba(47, 123, 255, 0.35);
-  --glow-orange: rgba(255, 122, 26, 0.28);
+  --border: rgba(34, 211, 238, 0.18);
+  --glow-blue: rgba(34, 211, 238, 0.35);
+  --glow-orange: rgba(139, 92, 246, 0.3);
   --radius: 14px;
   --max: 1120px;
   --header-h: 76px;
@@ -42,8 +42,8 @@ body {
   line-height: 1.6;
   color: var(--text);
   background:
-    radial-gradient(ellipse 80% 50% at 10% -10%, rgba(47, 123, 255, 0.22), transparent 55%),
-    radial-gradient(ellipse 60% 40% at 90% 0%, rgba(255, 122, 26, 0.12), transparent 50%),
+    radial-gradient(ellipse 80% 50% at 10% -10%, rgba(34, 211, 238, 0.22), transparent 55%),
+    radial-gradient(ellipse 60% 40% at 90% 0%, rgba(139, 92, 246, 0.14), transparent 50%),
     linear-gradient(180deg, #050810 0%, var(--bg) 40%, #060a14 100%);
   background-attachment: fixed;
   -webkit-font-smoothing: antialiased;
@@ -152,14 +152,14 @@ button {
 
 .nav a.is-active {
   color: var(--text);
-  background: rgba(47, 123, 255, 0.15);
-  box-shadow: inset 0 0 0 1px rgba(47, 123, 255, 0.35);
+  background: rgba(34, 211, 238, 0.15);
+  box-shadow: inset 0 0 0 1px rgba(34, 211, 238, 0.35);
 }
 
 .nav-cta {
   margin-left: 0.35rem;
-  background: linear-gradient(135deg, var(--orange), #ff5c00) !important;
-  color: #140800 !important;
+  background: linear-gradient(135deg, var(--orange), #6d28d9) !important;
+  color: #f5f3ff !important;
   font-weight: 700 !important;
 }
 
@@ -232,20 +232,20 @@ button {
 }
 
 .btn-accent {
-  background: linear-gradient(135deg, var(--orange), #ff5c00);
-  color: #140800;
+  background: linear-gradient(135deg, var(--orange), #6d28d9);
+  color: #f5f3ff;
   box-shadow: 0 10px 28px var(--glow-orange);
 }
 
 .btn-outline {
-  border: 1px solid rgba(77, 159, 255, 0.45);
+  border: 1px solid rgba(34, 211, 238, 0.45);
   background: rgba(13, 20, 36, 0.6);
   color: var(--text);
 }
 
 .btn-outline:hover {
   border-color: var(--blue-bright);
-  background: rgba(47, 123, 255, 0.12);
+  background: rgba(34, 211, 238, 0.12);
 }
 
 .btn-ghost {
@@ -404,8 +404,8 @@ button {
 
 .project-item:hover {
   transform: translateY(-6px);
-  border-color: rgba(77, 159, 255, 0.4);
-  box-shadow: 0 18px 40px rgba(0, 0, 0, 0.35), 0 0 0 1px rgba(47, 123, 255, 0.12);
+  border-color: rgba(34, 211, 238, 0.4);
+  box-shadow: 0 18px 40px rgba(0, 0, 0, 0.35), 0 0 0 1px rgba(34, 211, 238, 0.12);
 }
 
 .project-item__index {
@@ -444,9 +444,9 @@ button {
   text-transform: uppercase;
   padding: 0.3rem 0.55rem;
   border-radius: 6px;
-  background: rgba(47, 123, 255, 0.12);
+  background: rgba(34, 211, 238, 0.12);
   color: var(--blue-bright);
-  border: 1px solid rgba(47, 123, 255, 0.2);
+  border: 1px solid rgba(34, 211, 238, 0.2);
 }
 
 .project-item__links {
@@ -465,8 +465,8 @@ button {
   margin-top: 2.5rem;
   padding: 1.75rem 1.5rem;
   border-radius: var(--radius);
-  border: 1px dashed rgba(255, 122, 26, 0.45);
-  background: rgba(255, 122, 26, 0.06);
+  border: 1px dashed rgba(139, 92, 246, 0.45);
+  background: rgba(139, 92, 246, 0.08);
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -526,7 +526,7 @@ button {
   position: relative;
   border-radius: 12px;
   overflow: hidden;
-  border: 1px solid rgba(77, 159, 255, 0.25);
+  border: 1px solid rgba(34, 211, 238, 0.25);
   background: #0a0f1a;
   aspect-ratio: 16 / 10;
   min-height: 320px;
@@ -575,7 +575,7 @@ button {
     margin-top: 0;
     padding: 0.95rem 1rem;
     border-radius: 10px;
-    background: rgba(47, 123, 255, 0.08);
+    background: rgba(34, 211, 238, 0.08);
     border: 1px solid var(--border);
   }
 }
@@ -686,12 +686,12 @@ button {
 
 .channel:hover {
   transform: translateY(-4px);
-  border-color: rgba(77, 159, 255, 0.45);
+  border-color: rgba(34, 211, 238, 0.45);
   box-shadow: 0 16px 36px rgba(0, 0, 0, 0.3);
 }
 
 .channel--wa:hover {
-  border-color: rgba(255, 122, 26, 0.55);
+  border-color: rgba(139, 92, 246, 0.55);
 }
 
 .channel__label {
@@ -854,7 +854,7 @@ button {
   }
 
   .nav a.is-active {
-    border-color: rgba(47, 123, 255, 0.35);
+    border-color: rgba(34, 211, 238, 0.35);
   }
 
   .nav-cta {
